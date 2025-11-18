@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-master
+  labels:
+    app: guestbook
+    tier: backend
+    role: master
+    component: redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: guestbook
+      tier: backend
+      role: master
+  template:
+    metadata:
+      labels:
+        app: guestbook
+        tier: backend
+        role: master
+    spec:
+      containers:
+      - name: master-redis-xfusion
+        image: redis
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 6379
+        livenessProbe:
+          tcpSocket:
+            port: 6379
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          tcpSocket:
+            port: 6379
+          initialDelaySeconds: 5
+          periodSeconds: 10
