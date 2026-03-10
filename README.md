@@ -1,7 +1,7 @@
 # VisitorLedger-Application-k8s-Guestbook
 # Nautilus Guestbook Application
 
-## Overview
+## Overview 
 
 The Nautilus Guestbook Application is a cloud-native web application designed to manage guest/visitor entries. Built with a modern 3-tier architecture, it runs on Kubernetes and provides a scalable, reliable platform for capturing and displaying visitor messages.
 
