@@ -5,7 +5,7 @@
 
 The Nautilus Guestbook Application is a cloud-native web application designed to manage guest/visitor entries. Built with a modern 3-tier architecture, it runs on Kubernetes and provides a scalable, reliable platform for capturing and displaying visitor messages.
 
-## Architecture
+## Architecture. 
 
 The application follows a distributed architecture with clear separation between frontend and backend tiers:
 
