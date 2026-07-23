@@ -58,7 +58,7 @@ Save the Kubernetes manifest as `guestbook-deployment.yaml`
 ```bash
 # Apply all resources
 kubectl apply -f guestbook-deployment.yaml
-```
+``` 
 
 ### Step 3: Verify Deployment
 
