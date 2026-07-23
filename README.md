@@ -34,7 +34,7 @@ The application follows a distributed architecture with clear separation between
 | frontend | 3 | php-redis-xfusion | gcr.io/google-samples/gb-frontend@sha256:a908df8... | CPU: 100m, Memory: 100Mi |
 
 ### Services
-
+ 
 | Service | Type | Port | Target Port | Node Port |
 |---------|------|------|-------------|-----------|
 | redis-master | ClusterIP | 6379 | 6379 | - |
