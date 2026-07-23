@@ -98,7 +98,7 @@ Replace `<node-ip>` with any node's IP address in your Kubernetes cluster.
 
 1. **Navigate** to the application URL
 2. **Enter** your message in the text field
-3. **Submit** to add your entry to the guestbook
+3. **Submit** to add your entry to the guestbook 
 4. **View** all entries displayed on the page
 
 ## Application Flow
