@@ -65,7 +65,7 @@ kubectl apply -f guestbook-deployment.yaml
 ```bash
 # Check deployment status
 kubectl get deployments
-
+ 
 # Expected output:
 # NAME           READY   UP-TO-DATE   AVAILABLE   AGE
 # redis-master   1/1     1            1           1m
