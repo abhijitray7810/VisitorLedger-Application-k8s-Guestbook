@@ -93,7 +93,7 @@ The guestbook application is accessible via:
 - **App Button**: Click the App button in your environment
 
 Replace `<node-ip>` with any node's IP address in your Kubernetes cluster.
-
+ 
 ## Usage
 
 1. **Navigate** to the application URL
