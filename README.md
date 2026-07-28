@@ -7,7 +7,7 @@ The Nautilus Guestbook Application is a cloud-native web application designed to
 ## Architecture. 
 
 The application follows a distributed architecture with clear separation between frontend and backend tiers:
-
+,
 ### Backend Tier (Redis)
 - **Redis Master**: Single instance handling all write operations
 - **Redis Slave**: Two replicas handling read operations with automatic synchronization
